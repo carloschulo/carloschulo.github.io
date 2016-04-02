@@ -35,70 +35,27 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
+             <button type="button" class="btn btn-default" id="login">Login</button>
+             <button type="button" class="btn btn-default" id="logout" style="display: none;">Logout</button>
           <h2>Your Current Location:</h2>
           <p id="mapimg"></p>
           
         </div>
         <div class="col-md-4">
-          <h2>Who are you and where were you?</h2>
-          <div class="alert alert-danger" role="alert">
-              <p>Firebase has assigned you the following anonymous UID: 
-                  <strong id="firebaseUID"></strong>
-              </p>
-          </div>
-          <div class="alert alert-success" role="alert">
-              <p>You are currently at:</p>
-              <p>Latitude: <strong id="latid"></strong></p>
-              <p>Longitude: <strong id="lngid"></strong></p>
-          </div>
-<!--
-          <p>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Type your name...">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button">Go!</button>
-              </span>
--->
-<!--            </div>-->
-            <!-- /input-group -->
-<!--
-          </p>
-          <p>
-              <div class="panel panel-default">
--->
-                  <!-- Default panel contents -->
-<!--                  <div class="panel-heading">Panel heading</div>-->
+              <h2>Who are you and where are you right now?</h2>
+              <div class="alert alert-danger" role="alert">
+                  <p>Firebase has assigned you the following anonymous UID: 
+                      <strong id="firebaseUID"></strong>
+                  </p>
+              </div>
+              <div class="alert alert-success" role="alert">
+                  <p>You are currently at:</p>
+                  <p>Latitude: <strong id="latid"></strong></p>
+                  <p>Longitude: <strong id="lngid"></strong></p>
+              </div>
 
-                  <!-- Table -->
-<!--
-                  <div class="table-responsive">
-                  <table class="table table-striped">
-                    <thead> 
-                        <tr> 
-                            <th>#</th>
-                            <th>First Name</th> 
-                            <th>Location</th> 
-                             
-                        </tr> 
-                    </thead>
-                    <tbody> 
-                        <tr> 
-                            <th scope="row">1</th>
-                             <td>Mark</td> <td>Otto</td> 
-                         </tr> 
-                         <tr> <th scope="row">2</th> <td>Jacob</td> <td>Thornton</td> 
-                         </tr> 
-                         <tr> <th scope="row">3</th> <td>Larry</td> <td>the Bird</td>  
-                         </tr> 
-                     </tbody>
-                  </table>
-                  </div>
--->
-<!--
-                </div>
-          </p>
--->
         </div>
+       
 
     </div>
 </div>
@@ -112,6 +69,7 @@
 
 <!--        <script src="js/geo.js"></script>-->
         <script src="js/main.js"></script>
+        <script src="js/login.js"></script>
 
 <!--        <script>window.onload = geolocate;</script>-->
 

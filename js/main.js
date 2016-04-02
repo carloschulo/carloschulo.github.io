@@ -47,7 +47,7 @@ geolocate(function(){
 //        userlog.push({
 //            "UID": authData.uid,
 //            "Provider": authData.provider,
-//
+//  
 //        });  
         var userUID = authData.uid;
         $("#firebaseUID").html(userUID);
