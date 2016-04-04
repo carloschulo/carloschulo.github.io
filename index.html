@@ -1,86 +1,49 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
     <head>
+        <title>Carlos Henriquez</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-
-        <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     </head>
+    
     <body>
-<div class="jumbotron">
-  <div class="container">
-     <h1>Where Am I?</h1>
-      <p>See a picture of where you are now!</p>
-  </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-             <button type="button" class="btn btn-default" id="login">Login</button>
-             <button type="button" class="btn btn-default" id="logout" style="display: none;">Logout</button>
-          <h2>Your Current Location:</h2>
-          <p id="mapimg"></p>
-          
-        </div>
-        <div class="col-md-4">
-              <h2>Who are you and where are you right now?</h2>
-              <div class="alert alert-danger" role="alert">
-                  <p>Firebase has assigned you the following anonymous UID: 
-                      <strong id="firebaseUID"></strong>
-                  </p>
-              </div>
-              <div class="alert alert-success" role="alert">
-                  <p>You are currently at:</p>
-                  <p>Latitude: <strong id="latid"></strong></p>
-                  <p>Longitude: <strong id="lngid"></strong></p>
-              </div>
-
-        </div>
+       <div class="top">
+          <div class="container">
+            <h1>My GitHub Repo Demos</h1>
+            <h3>Carlos Henriquez</h3>    
+          </div>
+       </div>
        
-
+       <div class="container">
+           <div class="row">
+               <div>
+                   <p>Click Below to see  sample Mobile-Only profile</p>
+                   <a target="_blank" href="user-profile/index.html" class="button">Click Here</a>
+               </div>
+               <div>
+                   <p>A sample testing Google Firebase User Authentication Methods. Go ahead and login/logout with your Google Account.</p>
+                   <a target="_blank" href="login-firebase/index.html" class="button">Click Here</a>
+               </div>
+               <div>
+                   <p>I used HTML 5's Geolocation method with Google Static Map, and a mix of Firebase's Anonymous login method for fun...Check it out!</p>
+                   <a target="_blank" href="googlemap-firebase/index.html" class="button">Click Here</a>
+               </div>
+           </div>
+           
+       </div>
+        
+    <div class="container">
+        <div class="row">
+            <p>Visit my Github Repo here:</p>
+            <a target="_blank" href="https://github.com/carloschulo" class="button">Click Here</a>
+        </div>
     </div>
-</div>
-
-<!--<hr>-->
-
         
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-<!--        <script src="js/geo.js"></script>-->
-        <script src="js/main.js"></script>
-        <script src="js/login.js"></script>
-
-<!--        <script>window.onload = geolocate;</script>-->
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+        
     </body>
+    
 </html>
