@@ -35,6 +35,22 @@ a:hover {
     padding-left: 15px;
 }
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
 .button {
     background-color: #4c91af; /* light blue */
     color: white;
@@ -44,7 +60,7 @@ a:hover {
     display: inline-block;
     font-size: 16px;
     white-space: nowrap;
-    border-radius: 10px;    
+    border-radius: 10px; 
 }
 
 .row {
@@ -53,6 +69,25 @@ a:hover {
     overflow: auto;
 }
 
+.row p {
+    padding: 10px 5px;
+}
+
 .row div {
     max-width: 750px;
 }
+
+.next {
+    text-align: left;
+}
+
+.bottom {
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+.bottom a:hover {
+    background-color: red;
+}
+
