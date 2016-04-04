@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+p, h1, h2, div, li {
+    color: black;
+    font-family: 'Comfortaa', sans-serif;   
+}
+
+
+.top {
+    background-color: #4e9393;
+    top: 0;
+    padding: 30px 15px 0px 15px;
+    margin-bottom: inherit;
+    text-align: center; /*centers everything in the class*/
+}
+
+.top h2 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.container {
+    background-color: inherit;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+    max-width: 80%;
+    border-radius: 9px;
+}
+
+#content {
+    padding-bottom: 46px;
+}
+
+.bottomNav {   
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}
+
+.bottomNav li{
+    display: inline; /* this will display horizontally*/
+}
+
+.bottomNav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.bottomNav li a:hover:not(.active) {
+    background-color: #4e9393;
+}
+
+.active {
+    background-color: #4e9393;
+}
+
+.imageShape {
+    overflow: auto;
+}
+.imageShape img {
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+}
