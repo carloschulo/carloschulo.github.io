@@ -23,7 +23,7 @@ function geolocate(callb) {
 //              "user1/lng": lg,
 //              "user1/LLobj": geolocation
 //            });
-            
+
             callb();
 
         });
@@ -36,9 +36,9 @@ function geolocate(callb) {
 geolocate(function(){
     var latandlang = lt + "," + lg;
     //console.log(latandlang);
-    $("#mapimg").html('<img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?center='+latandlang+'&zoom=15&scale=2&size=400x200&maptype=roadmap&format=png&visual_refresh=true&markers=size:small%7Ccolor:0xff0000%7Clabel:1%7C'+latandlang+'" alt="Google Map of 40.7957402 ,-74.0005607">');
-    
-    
+    $("#mapimg").html('<img class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center='+latandlang+'&zoom=15&scale=2&size=400x200&maptype=roadmap&format=png&visual_refresh=true&markers=size:small%7Ccolor:0xff0000%7Clabel:1%7C'+latandlang+'" alt="Google Map of 40.7957402 ,-74.0005607">');
+
+
     ref.authAnonymously(function(error, authData) {
       if (error) {
         console.log("Login Failed!", error);
@@ -47,22 +47,22 @@ geolocate(function(){
 //        userlog.push({
 //            "UID": authData.uid,
 //            "Provider": authData.provider,
-//  
-//        });  
+//
+//        });
         var userUID = authData.uid;
         $("#firebaseUID").html(userUID);
         $("#latid").html(lt);
         $("#lngid").html(lg);
-          
+
         user.update({
           [userUID]: {
               "Login-type": authData.provider,
               "Lat": lt,
               "Lng": lg,
               "LL": latandlang
-              
+
           }
-        });  
+        });
 
       }
         console.log('fb func');
