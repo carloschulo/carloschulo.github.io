@@ -1,9 +1,11 @@
+
 var geolocation = null;
 var ref = new Firebase("https://carlos-sandbox.firebaseio.com");
 var userlog = ref.child("userdata/logins");
 var user = ref.child("userdata/users");
 
 function geolocate(callb) {
+    console.log('log1');
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
 
@@ -34,6 +36,7 @@ function geolocate(callb) {
 }
 
 geolocate(function(){
+    console.log('log2');
     var latandlang = lt + "," + lg;
     //console.log(latandlang);
     $("#mapimg").html('<img class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center='+latandlang+'&zoom=15&scale=2&size=400x200&maptype=roadmap&format=png&visual_refresh=true&markers=size:small%7Ccolor:0xff0000%7Clabel:1%7C'+latandlang+'" alt="Google Map of 40.7957402 ,-74.0005607">');
@@ -72,11 +75,3 @@ geolocate(function(){
 
 });
 
-//$('#submit').click(function(event) {
-//  /* Act on the event */
-//  usersRef.update({
-//  "user1/nickname": $('#alias').val(),
-//  //"user1/email": $('#alias').val()
-//
-//});
-//});

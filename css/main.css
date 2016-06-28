@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: black;
+    background-color: #51FFCE;
     margin: auto;
 }
 
 a, p, div, li, h1, h3, h2 {
     color: white;
-    font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -20,11 +20,20 @@ a:hover {
     background-color: #007aaf;
 }
 
+hr{
+  
+  border: 1px solid #111111;
+}
+
+.shadow {
+  box-shadow: 0 3px 4px grey;
+}
+
 .top {
     top: 0;
-    background-color: inherit;
+    background-color: #FF5F69;
     padding: 30px 15px 5px 15px;
-    margin-bottom: 5px;  
+    margin-bottom: 5px;
 }
 
 .container {
@@ -33,6 +42,14 @@ a:hover {
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
+}
+.container p {
+  color: black;
+  font-weight: bold;
+}
+
+.links{
+  background: black;
 }
 
 @media (min-width: 768px) {
@@ -52,7 +69,7 @@ a:hover {
 }
 
 .button {
-    background-color: #4c91af; /* light blue */
+    background-color: #68026A; /* light blue */
     color: white;
     padding: 5px 10px;
     text-align: center;
@@ -60,7 +77,8 @@ a:hover {
     display: inline-block;
     font-size: 16px;
     white-space: nowrap;
-    border-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 3px 4px grey;
 }
 
 .row {
@@ -80,6 +98,9 @@ a:hover {
 .next {
     text-align: left;
 }
+.center {
+  text-align: center;
+}
 
 .bottom {
     display: inline-block;
@@ -90,4 +111,3 @@ a:hover {
 .bottom a:hover {
     background-color: red;
 }
-
