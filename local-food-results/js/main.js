@@ -24,7 +24,7 @@ var j = 0;
 var queryOpts = {
     '1': {
        '1': 'pizza',
-       '2': 'chinese',
+       '2': 'chinesefood',
        '3': 'salads',
        '4': 'coffee',
        '5': 'mexican',
