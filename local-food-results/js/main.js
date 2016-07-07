@@ -109,7 +109,7 @@ function setMapImage(obj){
             var csz = venueResults.location.formattedAddress[1]; //city state and zip
             var cityState = csz.replace(/ /g, "+");//replace empty space with + for URL
             var googleMapURL = baseURL+street+cityState+endURL;
-
+            
             var currentMap = ".currentMap";
             j = j + 1;
             console.log('j',j);
@@ -117,33 +117,36 @@ function setMapImage(obj){
              // doing this, post-increment the our
              // item index.
              //console.log( venueName );
+             $('.load-spinner').show();
+             
+             
              $('#mapResult').append(
-               ' <a class="currentMap'+[j]+'" target="_blank" href="'+hrefURL+street+cityState+'/"><img src="'+googleMapURL+'" alt="Google Map of '+st+csz+'"></a>' + '<br>'
-
+               ' <a class="currentMap'+[j]+'" target="_blank" href="'+hrefURL+street+cityState+'/"><img src="'+googleMapURL+'" alt="Google Map of '+st+csz+'"></a>' 
+               + '<br>'
                + venueName + "<br>" //venue name
                + st + "<br>" //street adress
                + csz + "<br><br>" //city State zip code
 
              );
-
-
-             $('html,body').animate({
+             $('.load-spinner').hide();
+             setTimeout(function(){
+                 $('html,body').animate({
               scrollTop: $(".bottom").offset().top},
               'slow');
-
-          // if (j < 10) {
-          //   $(btn1).hide();
-          // }
-
-
-
+             },200);
+             
          }
          // Prevent default event (form submit).
          objEvent.preventDefault();
          return( false );
      }
    );
-
+    
+//       if (j = 10) {
+////             $(btn1).hide();
+//           console.log('j is', j);
+//           }
+    console.log('j sec',j);
 }
 
 geolocate(function(){

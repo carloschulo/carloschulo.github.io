@@ -133,3 +133,19 @@ a:visited{
 a:hover{
   color: #212121;
 }
+
+.load-spinner {
+  z-index: 350;
+  position: fixed;
+  top: 60px;
+  left: 15px;
+}
+
+
+
+
+
+
+
+
+
