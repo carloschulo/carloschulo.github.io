@@ -1,2 +1,3 @@
 # carloschulo.github.io
-Demo of current, personal projects that I have uploaded so far to GitHub
+
+Demo of current, personal projects that I have uploaded so far to GitHub http://carloschulo.github.io
