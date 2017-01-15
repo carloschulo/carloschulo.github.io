@@ -1,3 +1,7 @@
 # carloschulo.github.io
 
-Demo of current, personal projects that I have uploaded so far to GitHub http://carloschulo.github.io
+Doing #Javascript30 🤓 💻 !
+
+One javascript excercise a day for the next 30 days!
+
+ http://carloschulo.github.io
