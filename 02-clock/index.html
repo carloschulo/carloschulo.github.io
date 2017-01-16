@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>#js30 day 2 clock</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="clock">
+        <div class="clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+    </div>
+<script>
+const secondHand = document.querySelector('.second-hand');
+
+function setDate() {
+    const now = new Date();
+    const seconds = now.getSeconds();
+    const secondDegrees = ((seconds / 60) * 360) + 90;
+    secondHand.style.transform = `rotate(${secondDegrees}deg)`
+    console.log(seconds)
+}
+
+    setInterval(setDate, 1000)
+</script>
+</body>
+</html>
