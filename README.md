@@ -15,3 +15,7 @@ One javascript excercise a day for the next 30 days!
 [Day 2 - CSS Clock](http://carloschulo.github.io/02-clock/index.html "Day 2 - CSS Clock")
 
 ---
+
+[Day 3- CSS Variables ✌🏼](http://carloschulo.github.io/03-cssvars/index.html "Day 3- CSS Variables")
+
+---
