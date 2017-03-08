@@ -32,7 +32,7 @@ One javascript excercise a day for the next 30 days!
 
 ---
 
-[Day 7 - Arrays day 2 ✌🏼](http://carloschulo.github.io/07-arrayday2/index.html "Day 7 - Arrays day 2")
+[Day 7 - Arrays day 2 ✌🏼😶](http://carloschulo.github.io/07-arrayday2/index.html "Day 7 - Arrays day 2")
 
 ---
 ---
