@@ -23,3 +23,20 @@ One javascript excercise a day for the next 30 days!
 [Day 4 - Arrays day 1 ✌🏼](http://carloschulo.github.io/04-arrayday1/index.html "Day 4 - Arrays day 1")
 
 ---
+
+[Day 5 - Flex Panel ✌🏼](http://carloschulo.github.io/05-flexpanels/index.html "Day 5 - Flex Panel")
+
+---
+
+[Day 6 - ajax ✌🏼](http://carloschulo.github.io/06-ajax/index.html "Day 6 - ajax")
+
+---
+
+[Day 7 - Arrays day 2 ✌🏼](http://carloschulo.github.io/07-arrayday2/index.html "Day 7 - Arrays day 2")
+
+---
+---
+
+[Day 12 - keysequence ✌🏼](http://carloschulo.github.io/12-keysequence/index.html "Day 12 - keysequence")
+
+---

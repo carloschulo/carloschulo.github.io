@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+    <!--<link href="css/style.css" rel="stylesheet">-->
+   
+</head>
+<body>
+     <style>
+        html, body {
+            background: #37474f;
+            color: #eee;
+        }
+    </style>
+
+
+
+<script>
+const pressed = [];
+const secretCode = 'carlos';
+window.addEventListener('keyup', e => {
+    pressed.push(e.key)
+    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length)
+    console.log(pressed)
+    if(pressed.join('').includes(secretCode)){
+        console.log('you did it!')
+        cornify_add()
+    }
+})
+
+
+</script>
+</body>
+</html>
