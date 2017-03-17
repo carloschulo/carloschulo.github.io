@@ -40,3 +40,7 @@ One javascript excercise a day for the next 30 days!
 [Day 12 - keysequence ✌🏼](http://carloschulo.github.io/12-keysequence/index.html "Day 12 - keysequence")
 
 ---
+---
+
+[Day 15 - localstorage ✌🏼](http://carloschulo.github.io/15-localstorage/index.html "Day 15 - localstorage")
+
