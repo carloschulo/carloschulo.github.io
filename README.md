@@ -44,3 +44,7 @@ One javascript excercise a day for the next 30 days!
 
 [Day 15 - localstorage ✌🏼](http://carloschulo.github.io/15-localstorage/index.html "Day 15 - localstorage")
 
+---
+---
+
+[Day 24 - stickynav](http://carloschulo.github.io/24-stickynav/index.html "Day 24 - stickynav")
