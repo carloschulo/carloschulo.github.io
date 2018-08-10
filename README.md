@@ -2,8 +2,6 @@
 
 SOME REALLY OLD CODE BELOW
 
- http://carloschulo.github.io
-
 ---
 
 [Day 1 - Drum Kit](http://carloschulo.github.io/01-drumkit/index.html "Day 1 - Drum Kit")
