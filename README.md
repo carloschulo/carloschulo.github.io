@@ -1,8 +1,6 @@
 # carloschulo.github.io
 
-Doing #Javascript30 🤓 💻 !
-
-One javascript excercise a day for the next 30 days!
+SOME REALLY OLD CODE BELOW
 
  http://carloschulo.github.io
 
